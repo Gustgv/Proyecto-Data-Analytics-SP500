@@ -4,7 +4,7 @@
 <p align="justify"> Recientemente se me ha solicitado de una semana a otra realizar un proceso de transformacion de datos y desarrollar una API, adicional a eso, me han encargado elaborar un modelo de ML de recomendacion de peliculas, basandose en el usuario y la pelicula. En este README encontrarán toda la documentación, e instrucciones necesarias, para poder utilizar la API que se me solicitó desarrollar y su enlace de acceso en **DETA**, asi mismo brindare los enlaces correspondientes al sistema de recomendaciones desplegado en **STREAMLIT** y la notebook que corresponde al desarrollo del modelo. </p>
 
 
-🟣**MENU:** 🟣
+🟣**Menu:** 🟣
 
 🔹 **Pages** - Carpeta con los dashboards que se desplegan a Streamlit.<br>
 🔹 **sp500_env** - Carpeta de entorno virtual de Streamlit.<br>
@@ -12,43 +12,26 @@
 🔹 **Introduccion.py** - Archivo ejecutable de la app de streamlit.<br>
 🔹 **requirements.txt** - Este txt contiene las librerias utilizadas en la app de Stramlit<br>
 
-## API
+🟣 **Objetivo** 🟣
+
+<p align="justify">Una empresa esta interesada en invertir en la bolsa de valores y presta mucho interes en el S&P500, un indice que esta conformado por 500 empresas de Estados unidos que poseen gran capital sin embargo, la empresa no posee muchos conocimientos en este tipo de actividades, para esto solicitan un dashboard para presentar los movimientos del precio desde el año 2000 y exponer los momentos mas destacados que ha vivido el precio, asi como tambien se nos solicita sugerencias en cuanto a como invertir en este activo.</p>
+
+## DASHBOARD
 
 🟣 **Enlaces de acceso** 🟣
 
-🔹 API: https://deta.space/discovery/r/cffsroh2qj7qft8c<br>
+🔹 DASHBOARD: https://gustgv-proyecto-data-analytics-sp500-introduccion-d7fhnh.streamlit.app/<br>
 
-🟣 **Las funciones que componen la API son:** 🟣
-
-🔹 **get_max_duration**: Consulta de pelicula con mayor duration, expresado en min o season.<br>
-🔹 **get_score_count**: Conteo de peliculas por plataforma con un puntaje mayor a X valor en determinado año.<br>
-🔹 **get_count_platform**: Conteo de películas por plataforma.<br>
-🔹 **get_actor**: Presentar el actor que mas se repite segun plataforma y año.<br>
-
-
-## Modelo de Machine Learning
-
-🟣 **Enlaces de acceso** 🟣
-
-🔹 APP Streamlit: https://gustgv-primer-proyecto-ml-reco-movies-4insnc.streamlit.app/<br>
-🔹 Repositorio de sistema en Streamlit: https://github.com/Gustgv/Primer-Proyecto-ML.git<br>
-🔹 Carpeta de Ratings el cual se tomo para entrenamiento del modelo: https://drive.google.com/drive/folders/1b49OVFJpjPPA1noRBBi1hSmMThXmNzxn<br>
-
-🟣 **Las funciones del sistema de recomendaciones:** 🟣
-
-La funcion solo necesita de tres variables:
-* La id del usuario al cual quiere recomendar.
-* La id de la pelicula que desea recomendar.
-* El puntaje que estima que el usuario dara a la pelicula en caso de verla.
-
-Como resultado al ingresar estas variable el sistema le dira si la pelicula es recomendada o no y de serlo estimara la puntuacion que le dara.
+El dashboard esta compuesto de la siguiente manera:<br>
+🔹Introduccion: donde podran acceder a una pequeña introduccion sobre el S&P500.<br>
+🔹Dashboard SP500: Dashboard que contiene informacion grafica sobre dicho activo.<br>
+🔹Dashboard empresas: Dashboard que contiene informacion grafica sobre tres de las empresas mas significativas del SP500.<br>
 
 🟣 **Recursos Utilizados:** 🟣
 
 [Streamlit](https://streamlit.io/) - Para desplegar el sistema de recomendaciones.<br>
-[Deta](https://deta.space/) - Para desplegar API.<br>
-[SDV Surprise](https://surpriselib.com/) - Libreria utilizada para implementar el modelo de ML.<br>
-[Pandas](https://pandas.pydata.org/) - Libreria para la manipulacion de los dataset.
+[Plotly](https://plotly.com/graphing-libraries/) - Libreria utilizada para los graficos del dashboard.<br>
+[Pandas](https://pandas.pydata.org/) - Libreria para la manipulacion de los dataset.<br>
 
 
 
